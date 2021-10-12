@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="nav">
 
             <div className="logo">
-               
+                               {/* link tag does not load like anchor tag  */}
              <a href="/">
                   <img id="logoImage" src={logo} alt="Not" /> 
              </a>

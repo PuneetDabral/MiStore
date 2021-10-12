@@ -7,8 +7,8 @@ const Slider = ({start}) => {
     return (
         <Carousel fade>
        
-
-       {start.map((item)=>(
+     {/* map function itrates all the elements of the start array */}
+       {start.map((item)=>(   
             <Carousel.Item>
             <img
               className="d-block w-100"
