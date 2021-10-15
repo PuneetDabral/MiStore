@@ -14,7 +14,7 @@ import ProductReviews from "./components/ProductReviews.js"
 import Videos from "./components/Videos.js"
 import Banner from "./components/Banner.js"
 import Footer from "./components/Footer.js"
-// import NavOptios from "./components/NavOptios.js"
+
 
 
 
@@ -23,6 +23,7 @@ function App() {
     <Router>
     <PrenavBar />
     <Navbar />
+   
     <Slider start={data.banner.start} />
     <Offers offer={data.offer}/>
     <Heading text="STAR PRODUCTS"/>
